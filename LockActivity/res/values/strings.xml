@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">LockScreen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">LockScreen</string>
+    <string name="lockTitle">翘翘锁屏</string>
+
+</resources>

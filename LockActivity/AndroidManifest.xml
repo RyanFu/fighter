@@ -1,0 +1,41 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.com.uangel.lockscreen"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+         >
+        <receiver
+            android:name="cn.com.uangel.lockscreen.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name" >
+            
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_provider" />
+        </receiver>
+		<receiver android:exported="true" android:name="cn.com.uangel.lockscreen.LockReceiver" android:label="Lock Screen Widget" 
+		    android:permission="android.permission.BIND_DEVICE_ADMIN">
+		    <intent-filter>
+		        <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+		    </intent-filter>
+		    <meta-data android:name="android.app.device_admin" android:resource="@xml/lock_screen" />
+		   
+		</receiver>
+		<service android:name="cn.com.uangel.lockscreen.UpdateService">
+		</service>
+        <activity android:name=".LockActivity"
+             android:theme="@style/Theme.Transparent"  android:windowBackground="@color/transparent" >
+            
+        </activity>
+    </application>
+
+</manifest>
