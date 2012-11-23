@@ -27,6 +27,7 @@ public class MainActivity extends AppWidgetProvider {
 	public void onUpdate(Context context, AppWidgetManager appWidgetManager,
 			int[] appWidgetIds) {
 		System.out.println("onUpdate");
+		System.out.println("123456");
 		Intent localIntent = new Intent(context,UpdateService.class);
 		context.startService(localIntent);
 		
