@@ -3,13 +3,12 @@ package com.geolo.android;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
-import com.geolo.android.polygon.MyCube;
-import com.geolo.android.polygon.Polygon;
-
 import android.content.Context;
-import android.graphics.Bitmap;
 import android.opengl.GLSurfaceView.Renderer;
 import android.opengl.GLU;
+
+import com.geolo.android.polygon.MyCube;
+import com.geolo.android.polygon.Polygon;
 
 public class MyRenderer implements Renderer {
 
@@ -18,7 +17,7 @@ public class MyRenderer implements Renderer {
 
 	public MyRenderer(Context context){
 		this.mContext = context;
-		mPolygon = new MyCube(context);
+		mPolygon = new MyCube(mContext);
 	}
 
 	@Override

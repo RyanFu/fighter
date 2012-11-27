@@ -5,7 +5,12 @@ import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
 import android.content.Context;
 import android.content.Intent;
-
+/**
+ * 这一项目涉及到service的运用，也涉及到server的运用
+ * 整体也是widget应用
+ * @author Fighter
+ *
+ */
 @SuppressLint("NewApi")
 public class MainActivity extends AppWidgetProvider {
 

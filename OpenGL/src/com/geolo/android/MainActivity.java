@@ -2,6 +2,7 @@ package com.geolo.android;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 
 public class MainActivity extends Activity {
 
@@ -12,6 +13,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		myGLSurfaceView  = new MyGLSurfaceView(this);
 		setContentView(myGLSurfaceView);
+		Log.d("fighter", "---------->>>>>>>>>>>>");
 	}
 
 	@Override
