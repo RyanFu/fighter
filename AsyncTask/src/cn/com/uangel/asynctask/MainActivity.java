@@ -41,7 +41,7 @@ public class MainActivity extends Activity {
 		Log.d("fff", "onCreat");
 	}
 
-	private class GetImage extends AsyncTask<Object, Object, Object> {
+	private class GetImage extends AsyncTask<Object, Integer, Object> {
 
 		public GetImage() {
 
@@ -75,7 +75,6 @@ public class MainActivity extends Activity {
 			imageView01.setImageBitmap((Bitmap) result);
 
 			super.onPostExecute(result);
-
 		}
 
 		@Override
@@ -93,8 +92,9 @@ public class MainActivity extends Activity {
 		}
 
 		@Override
-		protected void onProgressUpdate(Object... values) {
+		protected void onProgressUpdate(Integer... values) {
 
+			System.out.println("onProgressUpdate");
 			/*
 			 * 
 			 * 此方法在主线程执行，用于显示任务执行的进度。
@@ -140,7 +140,7 @@ public class MainActivity extends Activity {
 
 				long length = entity.getContentLength();
 
-				Log.i("fff", " " + length);
+				Log.i("fff", "length:   " + length);
 
 				InputStream in = entity.getContent();
 
@@ -176,7 +176,7 @@ public class MainActivity extends Activity {
 //						// Thread.sleep(100);
 //
 //					}
-
+					publishProgress(100);//调用onProgressUpdate()
 					bitmap = BitmapFactory.decodeStream(in);
 
 					in.close();

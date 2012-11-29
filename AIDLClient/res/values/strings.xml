@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">AIDLClient</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">AIDLClient</string>
+    <string name="bindaidl">绑定</string>
+    <string name="show">返回的字符串</string>
+
+</resources>
