@@ -1,6 +1,7 @@
 package xiaohang.zhimeng;
 
 import java.util.HashMap;
+
 import xiaohang.zhimeng.NotePad.Notes;
 import android.content.ContentProvider;
 import android.content.ContentUris;
@@ -30,18 +31,19 @@ public class NotePadProvider extends ContentProvider{
 	private static final UriMatcher		   sUriMatcher;
 	private DatabaseHelper mOpenHelper;
 	//创建表SQL语句
-	private static final String 		   CREATE_TABLE="CREATE TABLE"
+	private static final String 		   CREATE_TABLE="CREATE TABLE "
 														+ NOTES_TABLE_NAME
 														+ "(" + Notes._ID
-														+ "INTEGER PRIMARY KEY,"
+														+ " INTEGER PRIMARY KEY, "
 														+ Notes.TITLE
-														+ " TEXT,"
+														+ " TEXT, "
 														+ Notes.NOTE
-														+ " TEXT,"
+														+ " TEXT, "
 														+ Notes.CREATEDDATE
-														+ " INTEGER,"
+														+ " INTEGER, "
 														+ Notes.MODIFIEDDATE
 														+ " INTEGER" + ");";
+	
 	
 	static{
 		sUriMatcher = new UriMatcher(UriMatcher.NO_MATCH);
@@ -66,6 +68,7 @@ public class NotePadProvider extends ContentProvider{
 		//创建表
 		@Override
 		public void onCreate(SQLiteDatabase db) {
+			System.out.println("creat_table:  "+CREATE_TABLE);
 			db.execSQL(CREATE_TABLE);
 		}
 		

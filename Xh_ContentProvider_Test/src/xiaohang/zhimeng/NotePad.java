@@ -5,7 +5,7 @@ import android.provider.BaseColumns;
 
 public class NotePad {
 	//ContentProviderµÄuri
-	public static final String AUTHORITY = "com.google.provider.NotePad";
+	public static final String AUTHORITY = "com.xh.google.provider.NotePad";
 	
 	private NotePad(){}
 	
