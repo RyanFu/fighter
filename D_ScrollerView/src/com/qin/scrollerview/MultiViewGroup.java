@@ -323,6 +323,7 @@ public class MultiViewGroup extends ViewGroup {
 
 		int childCount = getChildCount();
 		Log.i(TAG, "--- onMeasure childCount is -->" + childCount);
+		
 		for (int i = 0; i < childCount; i++) {
 			View child = getChildAt(i);
 			// 设置每个子视图的大小 ， 即全屏

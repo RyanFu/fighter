@@ -25,7 +25,8 @@ public final class R {
         public static final int c3=0x7f020001;
         public static final int ic_action_search=0x7f020002;
         public static final int ic_launcher=0x7f020003;
-        public static final int textback=0x7f020004;
+        public static final int side1=0x7f020004;
+        public static final int textback=0x7f020005;
     }
     public static final class id {
         public static final int lock_screen=0x7f090001;
