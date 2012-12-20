@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/uangel/!svn/ver/5957/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/dao/impl
+END
+ManagerDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/uangel/!svn/ver/5957/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/dao/impl/ManagerDaoImpl.java
+END
+AppDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/uangel/!svn/ver/5957/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/dao/impl/AppDaoImpl.java
+END
+AdCheckDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/uangel/!svn/ver/5957/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/dao/impl/AdCheckDaoImpl.java
+END
+ADDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/uangel/!svn/ver/3493/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/dao/impl/ADDaoImpl.java
+END
+PaypalDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/uangel/!svn/ver/3249/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/dao/impl/PaypalDaoImpl.java
+END
+MemberDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/uangel/!svn/ver/3284/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/dao/impl/MemberDaoImpl.java
+END

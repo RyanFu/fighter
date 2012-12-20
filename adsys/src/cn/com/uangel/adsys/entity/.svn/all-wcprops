@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/uangel/!svn/ver/5957/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity
+END
+AdCheckOtherInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/uangel/!svn/ver/3180/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/AdCheckOtherInfo.java
+END
+ClickInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/uangel/!svn/ver/3489/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/ClickInfo.java
+END
+ADShowInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/uangel/!svn/ver/3489/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/ADShowInfo.java
+END
+PaypalInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/uangel/!svn/ver/1468/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/PaypalInfo.java
+END
+RequestInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/uangel/!svn/ver/3284/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/RequestInfo.java
+END
+MSObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/uangel/!svn/ver/5957/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/MSObject.java
+END
+AppGroundStatInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/uangel/!svn/ver/2946/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/AppGroundStatInfo.java
+END
+ADPlatType.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/uangel/!svn/ver/1352/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/ADPlatType.java
+END
+Member.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/uangel/!svn/ver/2915/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/Member.java
+END
+CommisionInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/uangel/!svn/ver/1468/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/CommisionInfo.java
+END
+AdTypePrice.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/uangel/!svn/ver/2074/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/AdTypePrice.java
+END
+StatisticsByTimeInterval.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/uangel/!svn/ver/3053/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/StatisticsByTimeInterval.java
+END
+App.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/uangel/!svn/ver/2914/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/App.java
+END
+ADZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/uangel/!svn/ver/3171/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/ADZone.java
+END
+ADPhoneType.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/uangel/!svn/ver/1352/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/ADPhoneType.java
+END
+AD.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/uangel/!svn/ver/3485/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/AD.java
+END
+StatisticsByCrowd.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/uangel/!svn/ver/3053/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/StatisticsByCrowd.java
+END
+RechargeEdit.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/uangel/!svn/ver/5957/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/RechargeEdit.java
+END
+ADShowType.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/uangel/!svn/ver/3284/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/ADShowType.java
+END
+AppStatInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/uangel/!svn/ver/1471/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/AppStatInfo.java
+END
+MSBook.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/uangel/!svn/ver/5957/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/MSBook.java
+END
+ADArs.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/uangel/!svn/ver/3196/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/ADArs.java
+END
+StatisticsByGeography.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/uangel/!svn/ver/3053/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/StatisticsByGeography.java
+END
+AdStatInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/uangel/!svn/ver/3075/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/AdStatInfo.java
+END
+PaypalEdit.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/uangel/!svn/ver/5957/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/PaypalEdit.java
+END
+RechargeInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/uangel/!svn/ver/1672/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/RechargeInfo.java
+END
+MSHanatourPushInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/uangel/!svn/ver/5957/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/MSHanatourPushInfo.java
+END
+RechargeAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/uangel/!svn/ver/1731/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/entity/RechargeAccount.java
+END

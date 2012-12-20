@@ -1,0 +1,105 @@
+/*登陆页面body样式*/
+.Login_Body{
+	background: url(../images/login/BackGround1.gif) #ffffff repeat-x left top; 
+	width: 98%;
+	height:80%
+}
+
+#Login_Header {
+	height: 140px
+}
+
+#Login_Header img {
+	margin-top: 10px; 
+	margin-left: 25px
+}
+
+#sidebar {
+	float: left; 
+	width: 480px
+}
+
+#login {
+	background: url(../images/login/LoginForm.gif) #ffffff left top; 
+	float: right; 
+	width: 313px; 
+	height:159px;
+	margin-right: 102px; 
+	margin-top: 102px; 
+	position:absolute;
+	top:200px;
+	right:102px;
+}
+
+.Login_Footer {
+	width: 100%;
+	height:70px;
+	text-align: left;
+	color:#b2cbdb;
+	font-size:12px;
+	padding:0px 0px 5px 0px;
+	background:#B12322;
+	position:absolute;
+	bottom:0px;
+	left:0;
+}
+
+.Login_Footer .line {
+	height:5px;
+	background:#1E5693;
+}
+
+.Login_Footer .info p {
+	margin: 1px 0px
+}
+
+/*登陆窗口登陆列*/
+.Login_Form{
+	width:200px;
+	height:72px;
+	text-align: center;
+	margin:0px 0px 0px 0px;
+	background-color:#;
+	position:absolute;
+	top:45px;
+	right:30px;
+}
+
+/*登陆窗口input样式*/
+.Login_Input{
+	font-size: 12px;
+	font-style: normal;
+	color: #000;
+	text-decoration: none;
+	line-height: 150%;
+	border:1px solid #A09F9F;
+	width:160px;
+	margin:3px 0px 0px 0px;
+	height:19px;
+}
+
+.Login_ButtonDiv1{
+	position:absolute;
+	top:64px;
+	left:16px;
+	width:240px;
+}
+
+/*登陆窗口按钮样式*/
+.Login_Button{
+    padding-left:8px;
+    padding-right:10px;
+    margin:0px 0px 0px 10px;
+	height:20px;
+	cursor:pointer;
+}
+
+.button {
+	font-size: 9pt; 
+	color: #000000; 
+	background-color: #E1F4EE; 
+	border: 1px solid #E1F4EE;
+	width:55px;
+	height:25px;
+	cursor:pointer;
+}

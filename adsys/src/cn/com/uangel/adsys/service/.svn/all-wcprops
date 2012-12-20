@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/uangel/!svn/ver/6698/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/service
+END
+SocketServerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/uangel/!svn/ver/3415/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/service/SocketServerService.java
+END
+TestService.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/uangel/!svn/ver/6698/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/service/TestService.java
+END
+AppService.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/uangel/!svn/ver/5957/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/service/AppService.java
+END
+AdCheckService.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/uangel/!svn/ver/5957/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/service/AdCheckService.java
+END
+ADService.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/uangel/!svn/ver/3180/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/service/ADService.java
+END
+PaypalService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/uangel/!svn/ver/2237/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/service/PaypalService.java
+END
+MemberService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/uangel/!svn/ver/2915/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/service/MemberService.java
+END
+ManageService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/uangel/!svn/ver/5957/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/service/ManageService.java
+END

@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>UBBEditor</title>
+<script language="javascript" type="text/javascript" src="js/AnPlus.js"></script>
+<script language="javascript" type="text/javascript" src="js/AnUBBEditor.js"></script>
+<script language="javascript" type="text/javascript">
+var editor1=null;
+_.load(function(){
+    editor1=new AnUBBEditor("text1",true); 
+});
+
+function ubb2html(o){
+    var re=null;
+    var str=o;
+    str = str.replace(/</ig, "&lt;");
+    str = str.replace(/>/ig, "&gt;");
+    str = str.replace(/ /ig, "&nbsp;");
+    str = str.replace(/\n/ig,"<br />\n")
+    str = str.replace(/\[img\](.[^\[]*)\[\/img\]/ig,"<a href=\"$1\" target=\"_blank\"><img src=\"$1\" border=\"0\" alt=\"Open in a new window!\" onload=\"javascript:if(this.width>500){this.width=500;}\" /></a>");
+    str = str.replace(/(\[url\])(.[^\[]*)(\[\/url\])/ig,"<a href=\"$2\" target=\"_blank\">$2</a>");
+    str = str.replace(/\[url=(.[^\[]*)\]/ig,"<a href=\"$1\" target=\"_blank\">");
+    str = str.replace(/\[color=(.[^\[]*)\]/ig,"<span style=\"color:$1;\">");
+    str = str.replace(/\[font=(.[^\[]*)\]/ig,"<span style=\"font-family:$1;\">");
+    str = str.replace(/\[size=(.[^\[]*)\]/ig,"<span style=\"font-size:$1;\">");
+    str = str.replace(/\[align=(center|left|right)\]/ig,"<div align=\"$1\">");
+    str = str.replace(/\[table=(.[^\[]*)\]/ig,"<table width=\"$1\">");
+    ubbTag =new Array(/\[sub\]/ig,/\[\/sub\]/ig,/\[sup\]/ig,/\[\/sup\]/ig,/\[\/url\]/ig,/\[\/color\]/ig, /\[\/size\]/ig, /\[\/font\]/ig, /\[\/align\]/ig, /\[b\]/ig, /\[\/b\]/ig,/\[i\]/ig, /\[\/i\]/ig, /\[u\]/ig, /\[\/u\]/ig, /\[ulist\]/ig, /\[list=1\]/ig, /\[list=a\]/ig,/\[list=A\]/ig, /\[\*\]/ig, /\[\/ulist\]/ig,/\[\/list\]/ig, /\[indent\]/ig, /\[\/indent\]/ig,/\[code\]/ig,/\[\/code\]/ig,/\[quote\]/ig,/\[\/quote\]/ig,/\[table\]/ig,/\[tr\]/ig,/\[td\]/ig,/\[\/tr\]/ig,/\[\/td\]/ig,/\[\/table\]/ig);
+    htmlTag=new Array("<sub>","</sub>","<sup>","</sup>","</a>","</span>", "</span>", "</span>", "</div>", "<b>", "</b>", "<i>","</i>", "<u>", "</u>", "<ul>", "<ol type=\"1\">", "<ol type=\"a\">","<ol type=\"A\">", "<li>", "</ul>", "</ol>", "<blockquote>", "</blockquote>","<div style=\"background:#E2F2FF;width:80%;border:1px solid #3CAAEC;padding:3px;\">","</div>","<div style=\"background:#E2F2FF;width:80%;border:1px solid #3CAAEC;padding:3px;\">","</div>","<table style=\"width:80%;border:1px solid #3CAAEC;border-collapse:collapse;\">","<tr>","<td style=\"border:1px solid #3CAAEC;\">","</tr>","</td>","</table>");
+    for(var i=0;i<ubbTag.length;i++){str=str.replace(ubbTag[i],htmlTag[i]);}
+    return str;
+}
+
+function toTest() {
+	alert(ubb2html(document.getElementById("text1").value));
+}
+</script> 
+</head> 
+<body style="font-size:9pt;font-family:verdana,tahoma,arial;">
+<form id="frm1" action="test.html">
+<textarea id="text1" name="content" cols="45" rows="10"></textarea> 
+<br/>
+<input type="button" value="提交" onclick="window.demo.clickOnAndroid()" /> 
+</form>
+</body> 
+</html> 

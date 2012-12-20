@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="adsys"
+  id="myeclipse.1311561135523"
+  context-root="/adsys"
+  j2ee-spec="5.0"
+  archive="adsys.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

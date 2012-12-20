@@ -1,0 +1,171 @@
+#start_p {cursor: pointer;
+}
+#topMain {
+	position: relative;
+	height: 420px;
+	width: 100%;
+	background: url("../../images/smart/topMain_bg.png") no-repeat center 50px;
+	}
+#topMainInner {
+	position: relative;
+	height: 100%;
+	width: 960px;
+	margin: 0 auto;
+	}
+
+
+#Smartphone {
+	display: block;
+	padding: 0 0 0 24px;
+	height: 463px;
+	background: url("../../images/smart/smartphone.png") no-repeat scroll 0 20px transparent;
+	width: 215px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	}	
+#Smartphone img#free {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	}
+#unit {
+	display: block;
+	position: absolute;
+	left: 36px;
+	top: 99px;
+	width: 167px;
+	height: 254px;
+	}
+#mainnav {
+	display: block;
+	background: url("../../../img/fukuang.png") no-repeat scroll 0 0 transparent;
+	position: absolute;
+	top: 20px;
+	left: 320px;
+	width: 538px;
+	height: 381px;
+	z-index: 1;
+	}
+#mainnav #info {
+	display:block;
+	position: absolute;
+	height: 45px;
+	top: 22px;
+	right: 22px;
+	}
+	
+
+#mainvisual {
+	top: 240px;
+	left: 0;
+	height: 221px;
+	width: 100%;
+	min-width: 960px;
+	position: absolute;
+	z-index: 1;
+	overflow: hidden;
+}
+* html #mainvisual {
+	width: expression(document.body.clientWidth < 961 ? "960px" : "100%");
+}
+#slide {
+	position: relative;
+	height: 100%;
+	width: 3000px;
+	left: 50%;
+	margin-left: -1005px;
+	background: url("../../images/smart/unit_bg.gif") no-repeat 550px top;
+}
+#slide div img {
+	float: left;
+	margin-right: 20px;
+}
+.jsOn #mainvisual img {
+	display: none;
+}
+
+
+
+#point_block_wr {
+	margin: 0px auto;
+	position: relative;
+}
+#point_block {
+	margin: 0 auto;
+	width: 960px;
+	height: 330px;
+	text-align: left;
+	padding: 0 0 40px 0;
+	}
+#point_block h2.png_bg01 {
+	display: block;
+	width: 219px;
+	height: 35px;
+	background: url("../../images/smart/h2_1.png") no-repeat scroll 0 0 transparent;
+	text-indent: -9999px;
+	overflow: hidden;
+	}
+#point_block h2.png_bg02 {
+	display: block;
+	width: 219px;
+	height: 35px;
+	background: url("../../images/smart/h2_2.png") no-repeat scroll 0 0 transparent;
+	text-indent: -9999px;
+	overflow: hidden;
+	}
+#point_block h2.png_bg03 {
+	display: block;
+	width: 219px;
+	height: 35px;
+	background: url("../../images/smart/h2_3.png") no-repeat scroll 0 0 transparent;
+	text-indent: -9999px;
+	overflow: hidden;
+	}
+#point_block h2.png_bg04 {
+	display: block;
+	width: 219px;
+	height: 35px;
+	background: url("../../images/smart/h2_4.png") no-repeat scroll 0 0 transparent;
+	text-indent: -9999px;
+	overflow: hidden;
+	}
+#point_block h2.png_bg04_2 {
+	width: 219px;
+	height: 35px;
+	display: block;
+	background: url("../../images/smart/h2_4_2.png") no-repeat scroll 8px 0 transparent;
+	text-indent: -9999px;
+	}
+#point_block p.point_test {
+	display: block;
+	color: #6f7484;
+	width: 219px;
+	padding: 10px 0;
+	font-size: 74%;
+	}	
+#point1 {
+	float: left;
+	width: 219px;
+	margin: 0;
+	padding: 0;
+	}
+#point2 {
+	float: left;
+	width: 219px;
+	margin: 0;
+	padding: 0 0 0 28px;
+	}
+#point3 {
+	float: left;
+	width: 219px;
+	margin: 0;
+	padding: 0 0 0 28px;
+	}
+#point4 {
+	float: left;
+	width: 219px;
+	margin: 0;
+	padding: 0 0 0 28px;
+	}

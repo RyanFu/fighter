@@ -1,0 +1,268 @@
+	/*@弹出窗口样式表@*/
+
+	/* 弹出窗口表格线颜色*/	
+	.OpenDlg_TableLine{
+		background:#3B61A2;
+	}
+	
+	/*弹出窗口头部 add by lzp*/
+    OpenDlg_HeadStyle{
+		background-image: url("../images/common/bar_back.gif");
+		height:23;
+	}
+	/* 弹出窗口表格表头行颜色*/
+	.OpenDlg_TableHead{
+		font-size: 12px;
+		background: #1292F8 url("../images/common/dlgHead_back.gif");
+		color:#fff;
+	}
+	
+	/* 弹出窗口表格表头行字体*/	
+	.OpenDlg_TableHead th{
+		color:#fff;
+		font-size:12px;
+		font-weight:bold;
+		text-align:left;
+		padding:4px;
+	}
+
+	/*弹出窗口表格背景色*/
+	.OpenDlg_Table{
+		background:#fff;
+		font-size: 12px;
+	}
+
+	tr.OpenDlg_Table, tr.OpenDlg_TableHead{
+		height:20px;
+	}
+
+
+	.OpenDlg_Table th{
+		padding:2px;
+	}
+
+	td.treeview td{
+	    padding:　0px;
+    }
+
+	.OpenDlg_Table td{
+		font-size: 12px;
+		font-style: normal;
+		line-height: 150%;		
+		color: #000000;
+		text-decoration: none;
+		padding:2px;
+	}
+	
+	/*弹出窗口背景*/
+	.OpenDlg_Body{
+		background-color: #DBECFB;
+		margin:0;
+		text-align:center;
+		font-size: 12px;	
+	}
+	
+	/*弹出页面表单控件样式*/
+	.OpenDlg_InputStyle{
+		background-color: #fff; 
+		font-size: 12px; 
+		color: #000000; 
+		margin:0px;
+		border: 1px solid black;
+	}
+
+	.OpenDlg_Btn{/*弹出页面按钮*/
+		background: transparent url("../images/button/greenr.gif") no-repeat right top;
+		margin: 0px 4px;
+		cursor: pointer;
+		height: 21px;
+	}
+
+	.OpenDlg_Btn span{/*弹出页面按钮*/
+	    display:inline;
+	    background:url("../images/button/greenl.gif") no-repeat left top;
+	    padding:0px 9px;
+		height: 21px;
+	}
+
+	.OpenDlg_Btn div {
+	    display:inline;
+	    background:url("../images/button/greenb.gif") repeat-x;
+		padding:3px 2px;
+		height: 30px;
+		width:25px;
+		white-space: nowrap;
+		color:#000;
+		font-size:12px;
+		font-family: 宋体, Courier, "Courier New", monospace ;		
+		cursor:pointer;
+		text-align:center;
+	}
+
+	.OpenDlg_Loading, .OpenDlg_Success, .OpenDlg_Error  {
+		padding:2px 2px 2px 20px;
+		margin-left:10px;
+		height:20px;
+		color:#000;
+		font-size:12px;
+		text-align:left;
+		font-weight:normal;
+	}
+
+	.OpenDlg_Loading{
+		background:url("../images/common/dlgLoading.gif") no-repeat left top ;
+	}
+
+	.OpenDlg_Success {
+		background:url("../images/common/dlgSuccess.gif") no-repeat left top ;
+	}
+
+	.OpenDlg_Error {
+		background:url("../images/common/dlgError.gif") no-repeat left top ;
+	}
+	
+	.OpenDlg_SelectedTab {/* 弹出窗口已选择标签页*/	
+		background-color: #166BE1;
+		color: #fff;
+		background:url("../images/common/DlgselectedTab.gif")  no-repeat;
+		width:85px;
+		height:26px;
+		text-align:center;
+		color:#FFFFFF;
+		font-size:12px;
+	}
+
+	/*弹出窗口列表项鼠标悬停时颜色*/
+	.OpenDlg_ListOver{
+		background-color: #FBF6E5;
+		cursor:hand;
+	}
+
+	/*弹出窗口列表项鼠标点击时颜色*/
+	.OpenDlg_ListClick{
+		background-color: #DEF1F7;
+		cursor:hand;
+	}
+	
+	/*弹出窗口列表项未选中时颜色*/
+	.OpenDlg_List{
+		background-color: #F9FBFD;
+		cursor:hand;
+	}
+
+	/*弹出窗口列表项表头颜色*/
+	.OpenDlg_ListTitle{
+		background-color: #DBECFB;
+		cursor:hand;
+	}
+
+	/*对话框标签布局*/
+	.panel {
+		clear: both;
+		display: none;
+	}
+
+	.panel.active-tab-body {
+		display: block;
+	}
+
+	#tabs {
+		list-style: none;
+	}
+
+	#tabs li {
+		float: left;
+	}
+
+	#tabs a {
+		padding: 5px 8px;
+		margin-left: 6px;
+		background-color: #60E7FF;
+		text-decoration: none;
+		color: #000;
+		background:url("../images/common/DlgUnselectedTab.gif") no-repeat;
+		width:85px;
+		height:26px;
+		font-size:12px;
+		cursor:pointer;
+	}
+
+    
+	#tabs a.active-tab {
+		background-color: #166BE1;
+		color: #fff;
+		background:url("../images/common/DlgselectedTab.gif")  no-repeat;
+	}
+
+	#mytabs {
+		list-style: none;
+	}
+
+	#mytabs li {
+		float: left;
+	}
+
+	#mytabs a {
+		padding: 5px 8px;
+		margin-left: 6px;
+		background-color: #60E7FF;
+		text-decoration: none;
+		color: #000;
+		background:url("../images/common/DlgUnselectedTab1.gif") no-repeat;
+		width:157px;
+		height:26px;
+		font-size:12px;
+		cursor:pointer;
+	}
+
+    
+	#mytabs a.active-tab {
+		background-color: #166BE1;
+		color: #fff;
+		background:url("../images/common/DlgselectedTab1.gif")  no-repeat;
+	}
+	
+	input.readonly {
+		color: #666; 
+		background-color: #eee;
+	}
+	
+	input.disabled {
+		color: #999;
+		background-color: #eee;
+	}
+
+
+	input.required, textarea.required {
+		border: 1px solid #00A8E6;
+	}
+	input.validation-failed, textarea.validation-failed {
+		border: 1px solid #FF3300;
+		color : #FF3300;
+	}
+	input.validation-passed, textarea.validation-passed {
+	}
+
+	.validation-advice {
+		padding:2px;
+		display:inline;
+		background-color: #FF3300;
+		color : #FFF;
+	}
+	
+	.custom-advice {
+		margin: 5px 0;
+		padding: 5px;
+		background-color: #C8AA00;
+		color : #FFF;
+		font-weight: bold;
+	}
+
+	div#short{
+		position:relative;
+		float:left;
+	}
+	div#detail{
+		position:relative;
+		float:right;
+	}

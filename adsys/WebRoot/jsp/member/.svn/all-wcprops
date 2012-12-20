@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/uangel/!svn/ver/3513/Other_Application_System/adsys/adsys/WebRoot/jsp/member
+END
+register.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/uangel/!svn/ver/3513/Other_Application_System/adsys/adsys/WebRoot/jsp/member/register.jsp
+END
+changePassword.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/uangel/!svn/ver/3467/Other_Application_System/adsys/adsys/WebRoot/jsp/member/changePassword.jsp
+END
+login.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/uangel/!svn/ver/3451/Other_Application_System/adsys/adsys/WebRoot/jsp/member/login.jsp
+END
+financialInformation.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/uangel/!svn/ver/3467/Other_Application_System/adsys/adsys/WebRoot/jsp/member/financialInformation.jsp
+END
+info.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/uangel/!svn/ver/3497/Other_Application_System/adsys/adsys/WebRoot/jsp/member/info.jsp
+END
+reInitNewPass.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/uangel/!svn/ver/3467/Other_Application_System/adsys/adsys/WebRoot/jsp/member/reInitNewPass.jsp
+END
+reInitPassword.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/uangel/!svn/ver/3467/Other_Application_System/adsys/adsys/WebRoot/jsp/member/reInitPassword.jsp
+END
+registerSuccess.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/uangel/!svn/ver/3467/Other_Application_System/adsys/adsys/WebRoot/jsp/member/registerSuccess.jsp
+END
+registerInfo.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/uangel/!svn/ver/3467/Other_Application_System/adsys/adsys/WebRoot/jsp/member/registerInfo.jsp
+END
+accountInformation.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/uangel/!svn/ver/3502/Other_Application_System/adsys/adsys/WebRoot/jsp/member/accountInformation.jsp
+END
+reInitLogin.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/uangel/!svn/ver/3467/Other_Application_System/adsys/adsys/WebRoot/jsp/member/reInitLogin.jsp
+END

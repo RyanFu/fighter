@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/uangel/!svn/ver/3494/Other_Application_System/adsys/SDK_android_2.0/src/cn/com/uangel/adsdk/util
+END
+BaiduMapActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/uangel/!svn/ver/3370/Other_Application_System/adsys/SDK_android_2.0/src/cn/com/uangel/adsdk/util/BaiduMapActivity.java
+END
+GMapView.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/uangel/!svn/ver/3370/Other_Application_System/adsys/SDK_android_2.0/src/cn/com/uangel/adsdk/util/GMapView.java
+END
+LogUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/uangel/!svn/ver/3254/Other_Application_System/adsys/SDK_android_2.0/src/cn/com/uangel/adsdk/util/LogUtil.java
+END
+VideoPlayerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/uangel/!svn/ver/3254/Other_Application_System/adsys/SDK_android_2.0/src/cn/com/uangel/adsdk/util/VideoPlayerActivity.java
+END
+VideoView.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/uangel/!svn/ver/3254/Other_Application_System/adsys/SDK_android_2.0/src/cn/com/uangel/adsdk/util/VideoView.java
+END
+CommunalData.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/uangel/!svn/ver/3487/Other_Application_System/adsys/SDK_android_2.0/src/cn/com/uangel/adsdk/util/CommunalData.java
+END
+MyAnimation.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/uangel/!svn/ver/3254/Other_Application_System/adsys/SDK_android_2.0/src/cn/com/uangel/adsdk/util/MyAnimation.java
+END
+ClickListner.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/uangel/!svn/ver/3494/Other_Application_System/adsys/SDK_android_2.0/src/cn/com/uangel/adsdk/util/ClickListner.java
+END
+ViewAnimation.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/uangel/!svn/ver/3254/Other_Application_System/adsys/SDK_android_2.0/src/cn/com/uangel/adsdk/util/ViewAnimation.java
+END
+Orientation.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/uangel/!svn/ver/3352/Other_Application_System/adsys/SDK_android_2.0/src/cn/com/uangel/adsdk/util/Orientation.java
+END
+NetstateReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/uangel/!svn/ver/3413/Other_Application_System/adsys/SDK_android_2.0/src/cn/com/uangel/adsdk/util/NetstateReceiver.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/uangel/!svn/ver/3487/Other_Application_System/adsys/SDK_android_2.0/src/cn/com/uangel/adsdk/util/Util.java
+END

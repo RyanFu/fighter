@@ -1,0 +1,68 @@
+#start {
+	margin: 0 auto;
+	width: 960px;
+	display: none;
+	}
+h2.title_start {
+	background: url("../images/h2_title_start.gif") no-repeat scroll 0 0 transparent;
+    display: block;
+    font-size: 120%;
+    height: 60px;
+	text-align: center;
+	color: #fff;
+    line-height: 60px;
+	}
+#startContaints {
+    overflow: hidden;
+    width: 960px;
+	}
+#startContaints .foot_start {
+	display: block;
+	height: 24px;
+	background: url("../images/foot_start.gif") no-repeat scroll center bottom transparent;
+    width: 960px;
+	}
+#startContaints div.start_box {
+	width: 900px;
+    padding: 20px 30px 0;
+	 background: #f6f6f6;}
+#startContaints div.wr_box_about {
+	margin: 0 auto;
+	width: 840px;
+	}
+#startContaints p.st_title {
+    font-size: 130%;
+    text-align: left;
+	}
+div.box_about {
+	display: block;
+    float: left;
+    padding: 10px 0 0;
+    width: 254px;
+	}
+div.box_about p {
+	line-height: 1.4;
+	}
+div.box_about p span.smo {
+	font-size: 72%;
+	}
+#startContaints p.triangle_im {
+    display: block;
+    float: left;
+    height: 108px;
+    padding: 111px 8px 0;
+    width: 20px;
+}
+#startContaints p#p_leftb_text {
+	width: 600px;
+	float: left;
+	font-size: 110%;
+	color: #000;
+	margin: 0;}
+#startContaints p#p_left_text {
+	width: 600px;
+	float: left;
+	font-size: 77%;
+	line-height: 1.4;}
+#startContaints img.rit {
+	float: right;}

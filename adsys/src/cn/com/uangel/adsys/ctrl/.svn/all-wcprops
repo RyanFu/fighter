@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/uangel/!svn/ver/6698/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/ctrl
+END
+AppController.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/uangel/!svn/ver/3533/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/ctrl/AppController.java
+END
+TestConctroller.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/uangel/!svn/ver/6698/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/ctrl/TestConctroller.java
+END
+ADConctroller.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/uangel/!svn/ver/3527/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/ctrl/ADConctroller.java
+END
+ManageController.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/uangel/!svn/ver/5957/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/ctrl/ManageController.java
+END
+PaypalConctroller.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/uangel/!svn/ver/3457/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/ctrl/PaypalConctroller.java
+END
+MemberConctroller.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/uangel/!svn/ver/3531/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/ctrl/MemberConctroller.java
+END

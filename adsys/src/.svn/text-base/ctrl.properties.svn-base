@@ -1,0 +1,2 @@
+classname=TestConctroller,MemberConctroller,ADConctroller,AppController,PaypalConctroller
+suffix=test,mem,ad,app,pay

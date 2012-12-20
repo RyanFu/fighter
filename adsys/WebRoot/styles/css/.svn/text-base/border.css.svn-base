@@ -1,0 +1,39 @@
+/*form外边框样式*/
+.Border {
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	background: white;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: gray;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: gray;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: gray;
+}
+
+.Border .left {
+	width: 10px;
+	height: 17px;
+	float: left;
+	margin-left: -1px;
+	margin-top: -14px
+}
+
+.Border .right {
+	width: 10px;
+	height: 17px;
+	float: left;
+	margin-right: -1px;
+	margin-top: -14px
+}
+
+.Border .center {
+	height: 17px;
+	float: left;
+	margin-left: 0px;
+	margin-top: -14px
+}

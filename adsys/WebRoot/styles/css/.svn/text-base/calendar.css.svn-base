@@ -1,0 +1,31 @@
+/* 月份表格 */
+.monthTable{
+	  background-color: #ffffff;
+	  text-align: center;
+}
+
+/* 月份表格 工作日 */
+.monthTable .workday{
+   text-align: center;
+   cursor: pointer;
+   color: #4A88C5;
+}
+/* 月份表格 休息日 */
+.monthTable .weekday{
+   text-align: center;
+   cursor: pointer;
+   color: #8B0000;
+}
+/* 月份表格 月份标题 */
+.monthTable .title{
+   background-color: #214078;
+   color: #ffffff;
+   text-align: center;
+}
+
+/* 月份表格 星期几标题 */
+.monthTable .day{
+   background-color: #D9E5F3;
+   text-align: center;
+   color: #333333;
+}

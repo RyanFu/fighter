@@ -1,0 +1,92 @@
+/* 数据表格样式，有边框 */	
+.builderDataTable{
+	border: 1px solid #BEC6C9;
+	width: 100%;
+	border-collapse: collapse;
+}
+/* 数据表格奇数行样式 */
+.builderDataTableTrOdd{
+	cursor: pointer;
+	background: #FFFFFF;
+}
+/* 数据表格偶数行样式 */
+.builderDataTableTrEven{
+	cursor: pointer;
+	background: #F6F6F6;
+}
+/* 数据表格表头行样式 */
+.builderDataTableTrFirst{
+	height: 30px;
+	background: #E7E9E8;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+}
+/* 数据表格表头行TD样式 */
+.builderDataTableTrFirst td{
+	border: 1px solid #BEC6C9; 
+}
+/* 数据表格表头行TD样式 */
+.builderDataTableTrFirst th{
+	border: 1px solid #BEC6C9; 
+}
+/* 数据表格点击后样式 */
+.builderDataTableTrClick{
+	background: #316AC5;
+	color: #ffffff;
+}
+/* 数据表格TD样式 */
+.builderDataTableTd { 
+	border-color: #BEC6C9; 
+	border-style: dotted; 
+	border-width: 0px; 
+	border-bottom-width: 1px; 
+	border-right-width: 1px; 
+	border-left-width: 0px; 
+	padding: 4px;
+	font-size: 12px;
+}
+
+
+/* 表单表格样式 */
+.builderFormTable{
+	border-top-style: dotted;
+	border-bottom-style: dotted ;
+	border-collapse: collapse;
+	border-color: #BEC6C9;
+	border: 1px;
+	padding: 0;
+}
+/* 表单表格标题样式 */
+.builderFormTableFirstTr{
+	height: 30px;
+	background: #E7E9E8;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+}
+/* 表单表格第一列样式 */
+.builderFormTableTrFirstTd{
+	text-align: center;
+}
+/* 表单表格TD样式 */
+.builderFormTable tr{
+	height: 40px;
+}
+/* 表单表格select样式 */
+.builderFormTable select{
+	width:235px;
+}
+/* 表单表格偶数行样式  */
+.builderFormTableTrEven{
+	background:#F6F6F6;
+}
+/* 表单表格TD样式 */
+.builderFormTable td { 
+	border-color: #BEC6C9; 
+	border-style: dotted; 
+	border-width: 0px; 
+	border-bottom-width: 1px; 
+	border-left-width: 0px; 
+	padding: 0;
+}

@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/*=========================================================
+	[ reset.css ]
+=========================================================*/
+
+/*=========================================================
+	index
+		1. browser style reset
+		2. element style
+		3. clear class
+=========================================================*/
+
+/* 1. browser style reset
+=========================================================*/
+html,body,div,
+h1,h2,h3,h4,h5,h6,p,pre,
+table,caption,
+dl,dt,dd,ul,ol,li,
+fieldset,form,label,legend{
+	margin:0;
+	padding:0;
+	font-size:100%;
+	font-weight:normal;
+}
+table,tr,th,td{
+	border-collapse:collapse;
+	border-spacing:0;
+	font-weight:normal;
+}
+
+li{list-style:none;}
+
+/* 2. element style
+=========================================================*/
+strong{font-weight:bold;}
+a img{border-style:none;}
+img{vertical-align:top;}
+
+/* 3. clear & reset class
+=========================================================*/
+/*.clfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+* html .clfix { zoom: 1; } /* IE6 */
+/**:first-child+html .clfix { zoom: 1; }  IE7 */
+
+/* Clearfix */  
+.clfix:after {   
+    content: ".";    
+    display: block;    
+    height: 0;    
+    clear: both;    
+    visibility: hidden;   
+}   
+.clfix {   
+    display: inline-block;   
+    min-height: 1%;
+}   
+/* Hides from IE-mac \*/  
+* html .clfix {   
+    height: 1%;   
+}   
+.clfix {   
+    display: block;   
+}   
+/* End hide from IE-Mac */ 
+
+.clr{clear:both !important;}
+
+hr{
+	visibility:hidden;
+	clear:both;
+}
+br.fclr,br.clr{
+	clear:both;
+	font-size:0px;
+	line-height:0px;
+}
+

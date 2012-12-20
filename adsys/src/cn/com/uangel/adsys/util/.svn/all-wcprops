@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/uangel/!svn/ver/5957/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/util
+END
+JdbcUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/uangel/!svn/ver/1376/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/util/JdbcUtil.java
+END
+Log.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/uangel/!svn/ver/3283/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/util/Log.java
+END
+AjaxUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/uangel/!svn/ver/1380/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/util/AjaxUtils.java
+END
+StringUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/uangel/!svn/ver/1672/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/util/StringUtil.java
+END
+AuthenticationFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/uangel/!svn/ver/1741/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/util/AuthenticationFilter.java
+END
+EmailCheck.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/uangel/!svn/ver/3570/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/util/EmailCheck.java
+END
+HttpFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/uangel/!svn/ver/1741/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/util/HttpFilter.java
+END
+DoubleUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/uangel/!svn/ver/2275/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/util/DoubleUtil.java
+END
+ConnectionProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/uangel/!svn/ver/3284/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/util/ConnectionProvider.java
+END
+FrontController.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/uangel/!svn/ver/5957/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/util/FrontController.java
+END
+DateUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/uangel/!svn/ver/1380/Other_Application_System/adsys/adsys/src/cn/com/uangel/adsys/util/DateUtils.java
+END

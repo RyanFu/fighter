@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/uangel/!svn/ver/3539/Other_Application_System/adsys/SDK_android_2.0/src/cn/com/uangel/adsdk/views
+END
+AdView_FullScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/uangel/!svn/ver/3370/Other_Application_System/adsys/SDK_android_2.0/src/cn/com/uangel/adsdk/views/AdView_FullScreen.java
+END
+AdView_Banner.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/uangel/!svn/ver/3539/Other_Application_System/adsys/SDK_android_2.0/src/cn/com/uangel/adsdk/views/AdView_Banner.java
+END
+AdView_Suspension.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/uangel/!svn/ver/3254/Other_Application_System/adsys/SDK_android_2.0/src/cn/com/uangel/adsdk/views/AdView_Suspension.java
+END
+ElasticInterpolator.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/uangel/!svn/ver/3274/Other_Application_System/adsys/SDK_android_2.0/src/cn/com/uangel/adsdk/views/ElasticInterpolator.java
+END
+AdView_Implicit_Dialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/uangel/!svn/ver/3539/Other_Application_System/adsys/SDK_android_2.0/src/cn/com/uangel/adsdk/views/AdView_Implicit_Dialog.java
+END
+EasingType.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/uangel/!svn/ver/3274/Other_Application_System/adsys/SDK_android_2.0/src/cn/com/uangel/adsdk/views/EasingType.java
+END
+AdView_Implicit.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/uangel/!svn/ver/3539/Other_Application_System/adsys/SDK_android_2.0/src/cn/com/uangel/adsdk/views/AdView_Implicit.java
+END
+AdView_FullActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/uangel/!svn/ver/3353/Other_Application_System/adsys/SDK_android_2.0/src/cn/com/uangel/adsdk/views/AdView_FullActivity.java
+END
