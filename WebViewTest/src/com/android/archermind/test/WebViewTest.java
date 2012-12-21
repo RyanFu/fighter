@@ -9,7 +9,11 @@ import android.webkit.JsResult;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-
+/**
+ * 绫讳技鍗氬鍥炲鐣欒█
+ * @author Fighter
+ *
+ */
 public class WebViewTest extends Activity {
 	private WebView webView;
 	private Handler handler = new Handler();
@@ -28,7 +32,7 @@ public class WebViewTest extends Activity {
 		webView.setWebChromeClient(new MyWebChromeClient());
 		webView.addJavascriptInterface(new DemoJavaScriptInterface(), "demo");
 		
-		// 避免新开Android的系统browser中响应该链接
+		// 锟斤拷锟斤拷锟铰匡拷Android锟斤拷系统browser锟斤拷锟斤拷应锟斤拷锟斤拷锟斤拷
 		webView.setWebViewClient(new WebViewClient(){   
 		    public boolean shouldOverrideUrlLoading(WebView view, String url) {   
 		        view.loadUrl(url);   
@@ -63,7 +67,7 @@ public class WebViewTest extends Activity {
 		return true;
 		
 		/*if (webView.canGoBack() && keyCoder == KeyEvent.KEYCODE_BACK) {
-			// goBack()表示返回webView的上一页面
+			// goBack()锟斤拷示锟斤拷锟斤拷webView锟斤拷锟斤拷一页锟斤拷
 			webView.goBack(); 
 			
 			return true;
